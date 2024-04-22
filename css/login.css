@@ -1,0 +1,12 @@
+/ * A regra afetara todos os elementos HTML da pagina * /
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+/ * A regra @font-face do css para importar fonte (tipografia) externas para nossa paginas,ele
+@font-face {
+    font-family:montebello ;
+    src: url(montabello-regular);
+}
+    f
