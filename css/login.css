@@ -1,12 +1,29 @@
-/ * A regra afetara todos os elementos HTML da pagina * /
+/* A regra afetara todos os elementos HTML da pagina */
 *{
     margin: 0%;
     padding:0%;
     box-sizing: border-box;
 }
-/ * A regra @font-face do css para importar fonte (tipografia) externas para nossa paginas,ele
+/* A regra @font-face do css para importar fonte (tipografia) externas para nossa paginas,ele*/
 @font-face {
     font-family:montebello ;
-    src: url(montabello-regular);
+    src: url(montabello-regular.ttf);format("truetype"),url(montebello-light.otf),format("opentyoe");
+    font-weight: normal;
+    font-style: normal;
 }
-    f
+/* a regra para o corpo da pagina*/
+body{
+    width: 100%;
+    height: 100%;
+    background: hidden;
+}
+ /* essa regra cria um caixa que marcara a tela de login*/
+ .wrapper{
+    width: 400%;
+    height: 340px;
+    background: whitesmoke;
+    border-radius: 7px;
+    box-shadow: 0 6px 4px -4px rgba (0,0,0.25);
+ }
+    /* essa regra cria uma na parte superior da caixa,
+    .wra
